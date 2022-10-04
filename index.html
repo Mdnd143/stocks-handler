@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>STOCK-MASTER </title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <h1>Stock Master</h1>
+      <h2>Profit/loss calculator</h2>
+   <label for="initial-price">
+       Initial stock Price :
+       <input type="text" id="initial-price" placeholder="Enter here" required>
+   </label>
+  
+   <label for="stocks-quantity">
+     Quantity of total Stock :
+   <input type="text" id="stocks-quantity" placeholder="Enter quantity of stock" required>
+   </label>
+   <label for="latest-price">
+     Current Price of 1 stock :
+   <input type="text" id="latest-price" placeholder="Latest Price" required>
+   </label>
+   <button id="button-operate" class="profit-loss-btn">Check</button>
+  <div id="output-box" class="output-warn-text"></div>
+  <div id="output" class="output-text"></div></div>
+
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
